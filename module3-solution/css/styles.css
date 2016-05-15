@@ -1,0 +1,27 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*padding: 0 10px;
+  font-family: monospace, Helvetica, san-serif;*/
+}
+
+.row > div > div.blue {
+  background-color: blue;
+  color: #ccc;
+  padding: 0 15px;
+}
+
+ul.navbar-nav {
+  list-style: none;
+}
+
+@media (max-width: 768px) {  
+  #menu-navbar-collapse {
+    background: #ccc;
+  }
+}
